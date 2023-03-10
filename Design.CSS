@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+justify-content: center;
+align-items: center;
+background-color: gray;
+}
+#To_do_id
+{
+    display: flex;
+    flex-direction: column;
+}
+section
+{
+    width: 38vw;
+height: 55vh;
+background: linear-gradient(rgb(0, 198, 247),crimson);
+}
+.heading__title
+{
+    text-align: center;
+}
+.form_input
+{
+    height: 40px;
+    font-size: 20px;
+}
+.toDoList
+{
+    margin-left: 50px;
+    height: 20%;
+}
+.none
+{
+    display: none;
+}
